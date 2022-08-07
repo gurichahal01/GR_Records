@@ -1,0 +1,666 @@
+<html>
+
+<head>
+	<title>My page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../style/style.css">
+
+	{{!--
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> --}}
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+	<style>
+		.big-banner {
+			height: 500px;
+			background-size: 50% 90%;
+		}
+		.row1{
+			background-image: url('https://images.pexels.com/photos/35888/amazing-beautiful-breathtaking-clouds.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+			background-size: 100% 100%;
+    		height: 60%;
+		}
+		.header-center{
+			margin-bottom: 50px;
+			margin-top: 90px;
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+		nav#sideNav {
+    margin-top: -150;
+}
+
+		.fd-lorem {
+			letter-spacing: 4px;
+			font-size: 20px;
+			color: #fff;
+		}
+
+		.title {
+			font-size: 65px;
+			letter-spacing: 5px;
+			color: #fff;
+			margin-top: 12%;
+			font-family: fantasy;
+		}
+
+		.mt--180 {
+			margin-top: 400px;
+		}
+
+		.section-gap {
+			padding: 130px 0px;
+		}
+
+		.col-lg-6.col-x1-4.col-md-6.col-sm-12.col-12 {
+			width: 30%;
+		}
+
+		.img {
+			width: 114px;
+			height: 100px;
+		}
+		.col-lg-8 {
+    width: 80%;
+}
+
+		img {
+			padding: 45px 0px 0px 50px;
+		}
+
+		.bus {
+			font-size: 25px;
+		}
+
+		.para {
+			font-size: 17px;
+		}
+
+		p.para {
+			padding: 0px 50px 45px 50px;
+		}
+
+		h1.bus {
+			padding: 0px 50px 0px 50px;
+		}
+
+		.bg_color {
+			background-color: #f75286;
+			border-radius: 10px;
+			margin: 10px 10px 10px 10px;
+			width: 30% !important;
+		}
+
+		.service-area.section-gap {
+			padding-bottom: 0px;
+		}
+
+		.service-area.section-gap {
+			height: 454px;
+		}
+
+		.service-area2.section-gap2 {
+			height: 400px;
+		}
+
+		img.thumbnail {
+			padding: 30px;
+		}
+
+		.hire {
+			font-size: 20px;
+		}
+
+		.about {
+			font-size: 60px;
+		}
+
+		.para1 {
+			line-height: 1.8;
+		}
+
+		.para2 {
+			line-height: 1.8;
+		}
+
+		h1.hire {
+			padding: 90px 0px 0px 55px;
+		}
+
+		p.para1 {
+			padding: 0px 210px 0px 80px;
+		}
+
+		p.para2 {
+			padding: 0px 210px 0px 80px;
+		}
+
+		h1.about {
+			padding: 0px 0px 0px 55px;
+		}
+
+		button.btn.btn-danger {
+			margin: 0px 0px 0px 55px;
+		}
+
+		.hits {
+			padding: 40px;
+		}
+
+		.bg-image-area {
+			height: 650px;
+		}
+
+		.bg-image {
+			background-image: url('town.jpg')
+		}
+
+		.attachment {
+			background-attachment: fixed;
+		}
+
+		.bg-image-cs {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+
+		.feedback {
+			font-size: 20px;
+			padding: 80px 0px 0px 0px;
+			color: #f35e8d;
+		}
+
+		.porto {
+			font-size: 60px;
+		}
+
+		img.img2 {
+			padding: 0px;
+		}
+
+		img.img1 {
+			padding: 0px;
+		}
+
+		img.img2 {
+			height: 500px;
+			width: 600px;
+		}
+
+		img.img2 {
+			padding: 25px 25px 100px 25px;
+		}
+
+		.development {
+			font-size: 15px;
+			color: #f35e8d;
+		}
+
+		.services {
+			font-size: 25px;
+		}
+
+		h1.development {
+			margin-top: -75px;
+		}
+
+		h1.development {
+			padding-left: 24px;
+		}
+
+		h1.services {
+			padding-left: 24px;
+		}
+
+		.row1.text-center {
+			height: 250px;
+		}
+		.row{
+			margin: 0px;
+		}
+
+		.row3 {
+			height: 740px;
+		}
+
+		.row4 {
+			height: 752px;
+		}
+
+		.row5 {
+			height: 840px;
+		}
+
+		img {
+			padding: 20px 15px 20px 15px;
+		}
+
+		.divider {
+			border-top: 1px solid #bbb;
+		}
+
+		.client-name {
+			text-align: center;
+		}
+
+		.smith {
+			font-size: 20;
+		}
+
+		h1.porto {
+			padding-bottom: 60;
+		}
+
+		.photo {
+			padding: 20px 15px 43px 15px;
+		}
+
+		.photo3 {
+			padding: 20px 15px 39px 15px;
+		}
+
+		.photo2 {
+			padding: 54px 15px 63px 15px;
+		}
+
+		.col-sm-3 {
+			padding-right: 40;
+		}
+
+		.colm5 {
+			margin-left: 285px;
+		}
+
+		.row8 {
+			height: 350px;
+		}
+
+		.contact {
+			font-size: 20px;
+			color: #f35e8d;
+			padding-top: 60px;
+		}
+
+		.contact2 {
+			font-size: 60px;
+			padding-bottom: 30px;
+		}
+
+		.container9 {
+			height: 720px;
+		}
+
+		img.img5 {
+			padding: 20px 20px 18px 20px;
+		}
+
+		.navine {
+			font-size: 30px;
+		}
+
+		.same {
+			font-size: 20px;
+		}
+
+		.different {
+			font-size: 15px;
+		}
+
+		.col-lg-5 {
+			margin-left: 120px;
+		}
+
+		img.img5 {
+			padding: 20px 20px 434px 20px;
+		}
+
+		img.img5 {
+			padding: 20px 0px 16px 0px;
+		}
+
+		h1.navine {
+			padding-left: 20px;
+		}
+
+		.same {
+			padding-left: 20px;
+		}
+
+		.different {
+			padding-left: 20px;
+		}
+
+		img.img5 {
+			width: 550px;
+		}
+
+		img.img5 {
+			padding: 20px 20px 0px 20px;
+		}
+
+		button.rn-btn {
+			color: red;
+			font-size: 14px;
+			border-radius: 6px;
+			border-color: #e9eef1;
+			background-color: #fff;
+		}
+
+		.col-lg-4 {
+			margin-left: 130px;
+		}
+
+		.sz-20 {
+			font-size: 20px;
+		}
+
+		p.para2 {
+			padding: 0px 50px 21px 50px;
+		}
+
+		p.para5 {
+			padding: 0px 50px 37px 50px;
+		}
+
+		.header-right {
+			margin-left: 30px;
+			justify-content: flex-end;
+			display: flex;
+			margin-right: -18px;
+		}
+
+		.header-center {
+			flex-basis: 100%;
+			justify-content: flex-end;
+			display: flex;
+			align-items: center;
+			padding-top: 25px;
+			padding-right: 50px;
+		}
+
+		.rn-btn {
+			background-color: #fff;
+			padding: 15px;
+			border-radius: 20px;
+		}
+		.rn-btn:hover{
+			background-color: #000;
+			text-decoration: none;
+		}
+
+		.nav-link {
+			color: #fff;
+		}
+		img.padd {
+			width: 476px;
+		}
+
+		p.para2 {
+			padding: 0px 50px 21px 55px;
+		}
+
+		p.para1 {
+			padding: 0px 107px 0px 55px;
+		}
+
+		img.img1 {
+			width: 100%;
+			height: 100%;
+		}
+
+		h1.development {
+			margin-top: 0px;
+		}
+
+		img.img1 {
+			padding: 25px 25px 29px 25px;
+		}
+
+		button.rn-btn {
+			padding: 20px 253px 20px 259px;
+		}
+
+		a.nav-link.smooth-animation.active {
+			color: #000;
+		}
+
+		a.rn-btn {
+			background-color: red;
+		}
+
+		.header-right {
+			margin-right: 40;
+		}
+
+		.header-right {
+			margin-top: 17px;
+		}
+
+		.header-center {
+			padding-right: 0px;
+		}
+		col-sm-5{
+			width: 50%;
+			padding: 50px;
+		}
+
+		a.rn-btn {
+			color: #fff;
+		}
+
+		.header {
+			height: 100px;
+		}
+
+		.header {
+			background-color: #fff;
+		}
+
+		.line1 {
+			margin-bottom: 100px;
+		}
+
+		.line2 {
+			margin-top: 100px;
+			margin-bottom: 80px;
+		}
+
+		.colm9 {
+			margin-left: 90px;
+		}
+
+		.colm10 {
+			margin-left: 90px;
+		}
+
+		.colm11 {
+			margin-left: 90px;
+		}
+
+		.line3 {
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+		.padd:hover{
+			zoom:10px;
+		}
+col-sm-7{
+	margin-right: 50px;
+}
+img.padd {
+    width: 400px;
+	margin-top: 100px;
+}
+
+		@media screen and (max-width: 500px) {
+			.bg_color {
+				width: 100% !important;
+			}
+
+			img.padd.thumbnail {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="col-lg-2">
+			<div class="header-left">
+				<div class="logo">
+					<a href="https://rainbowit.net/html/inbio/index.html">
+						<img src="https://rainbowit.net/html/inbio/assets/images/logo/logos-circle.png" alt="logo">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-8">
+			<div class="header-center">
+				<nav id="sideNav" class="mainmenu-nav navbar-example2">
+					<ul class="primary-menu nav nav-pills">
+						<li class="nav-item">
+							<a class="nav-link smooth-animation active" href="#features">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link smooth-animation active" href="#about">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link smooth-animation active" href="#portfolio">PORTOFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link smooth-animation active" href="#client">AWARD</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link smooth-animation active" href="#contacts">CONTACTS</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="col-lg-2">
+			<div class="header-right">
+				<i id="menuBtn" class="feather-menu"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="row1">
+		<div class="container-fluid big-banner text-center">
+			<source>
+			<h1 class="title mt--50">OFFICIAL GR RECORDS</h1>
+			<h1 class="fd-lorem">Blogger & musician</h1>
+		</div>
+	</div>
+
+	<div class="row line2">
+		<div class="container">
+			<div class="col-sm-5">
+				<img class="padd thumbnail" src="https://tse4.mm.bing.net/th?id=OIP.Q-QMbAAsAzLJ05WL-0Cf6gHaHa&pid=Api&P=0">
+			</div>
+			<div class="col-sm-7">
+				<h1 class="hire">VISIT MY PORTOFOLIO & HIRE ME</h1>
+				<h1 class="about">About Me</h1>
+				<p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
+					cuapiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci labore sit
+					veritatis vero tempore sequi at sed facere dolore. Quae obcaecati eius quasi doloribus illum minus
+					fugit.</p>
+				<p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
+					cupiditate accusantium voluptatibus quidem nam, reprehenderit,</p>
+				<button type="button" class="btn btn-danger">DOWNLOAD MY CV</button>
+			</div>
+		</div>
+	</div>
+<div class="row text-center">
+		<h1 class="contact">CONTACT</h1>
+		<h1 class="contact2">Contact With Me</h1>
+	</div>
+
+	<div class="row">
+		<div class="container">
+			<div class="col-md-5">
+				<div class="thumbnail">
+					<img class="img5" src="	https://rainbowit.net/html/inbio/assets/images/contact/contact1.png"
+						alt="contact-img">
+					<h1 class="navine">Nevine Acotanza</h1>
+					<h1 class="same">Operating Officer</h1>
+					<p class="same">I am available for Any Music work. Connect with me via and call in to my account.
+					</p>
+					<h1 class="same">Phone: +01234567890</h1>
+					<h1 class="same">Email: admin@example.com</h1>
+					<h1 class="different">FIND WITH ME</h1>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<form class="rnt-contact-form" id="contact-form" method="post" action="mail.php">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="contact-name">YOUR NAME</label>
+							<input class="form-control" name="contact-name" id="contact-name" type="text">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="contact-phone">PHONE NUMBER</label>
+							<input class="form-control" name="contact-phone" id="contact-phone" type="text">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="contact-email">EMAIL</label>
+							<input class="form-control form-control-sm" name="contact-email" id="contact-email"
+								type="email">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="subject-name">SUBJECT</label>
+							<input class="form-control form-control-sm" name="subject-name" id="subject-name"
+								type="text">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="contact-message">YOUR MESSAGE</label><br><br>
+							<textarea name="contact-message" id="contact-message" cols="82" rows="10"></textarea>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<button name="submit" type="submit" id="submit" class="rn-btn">
+							<span>SEND MESSAGE</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="row line3">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<div class="logo">
+					<a href="https://rainbowit.net/html/inbio/index.html">
+						<img src="	https://rainbowit.net/html/inbio/assets/images/logo/logo-vertical-dark.png"
+							alt="logo">
+					</a>
+				</div>
+				<p class="description sz-20">
+					© 2021. All rights reserved by
+					<a target="blank" href="https://themeforest.net/user/rainbow-themes/portfolio">Gurjant Singh</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+
+</html>
